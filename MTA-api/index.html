@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
+        <link rel="stylesheet" href="main.css" type="text/css" />
+    </head>
+    <body>
+        
+        <div class="navbar navbar-default navbar-satatic-top">
+            <h1 class='col-md-2 col-xs-2'>MTA</h1>
+            <div class="col-xs-6 col-md-6 col-xs-offset-1 col-md-offset-2">
+                <input id='query' type="text" class="form-control" placeholder='What time is it' />
+            </div>
+            <div class="col-xs-2 col-md-3">
+                <select class='form-control'>
+                    <option>A</option>
+                    <option>J</option>
+                    <option>M</option>
+                    <option>L</option>
+                </select>
+            </div>
+        </div>
+        
+        <div class="container-fluid col-xs-12 col-md-12">
+            <!--<div class="col-xs-9 col-md-5">-->
+            <!--    <input type="text" class="form-control" placeholder='the station your @' />-->
+            <!--    <input type="text" class="form-control" placeholder='the station your going to' />-->
+            <!--</div>-->
+            <h3 id='result'></h3>
+            <div id="bin-results"></div>
+        </div>
+        
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script src='script.js'></script>
+    </body>
+</html>
